@@ -18,7 +18,6 @@ void EulerProblemOne::PrintProblem()
 void EulerProblemOne::PrintAnswer()
 {
 	int answer = Solve();
-
 	cout << "Answer: " << answer << "\n";
 }
 

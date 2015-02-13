@@ -1,10 +1,8 @@
-﻿Build started 2/13/2015 1:07:48 PM.
+﻿Build started 2/13/2015 1:16:53 PM.
      1>Project "D:\Programming\Projects\C++\My Projects\EulerChallenges\EulerChallenges.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         D:\Programming\Visual Studio Community 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt EulerProblemOne.cpp main.cpp
-         main.cpp
+         D:\Programming\Visual Studio Community 2013\VC\bin\CL.exe /c /I"D:\Programming\Projects\C++\My Projects\EulerChallenges\Source Files" /I"D:\Programming\Projects\C++\My Projects\EulerChallenges\Header Files" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "Source Files\EulerProblemOne.cpp"
          EulerProblemOne.cpp
-         Generating Code...
        Link:
          D:\Programming\Visual Studio Community 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Programming\Projects\C++\My Projects\EulerChallenges\Debug\EulerChallenges.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Programming\Projects\C++\My Projects\EulerChallenges\Debug\EulerChallenges.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Programming\Projects\C++\My Projects\EulerChallenges\Debug\EulerChallenges.lib" /MACHINE:X86 Debug\EulerProblemOne.obj
          Debug\main.obj
@@ -13,4 +11,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.79
+Time Elapsed 00:00:00.57

@@ -52,6 +52,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Programming\Projects\C++\My Projects\EulerChallenges\Source Files;D:\Programming\Projects\C++\My Projects\EulerChallenges\Header Files;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -76,12 +77,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="EulerProblemOne.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClInclude Include="Header Files\EulerProblem.h" />
+    <ClInclude Include="Header Files\EulerProblemOne.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="EulerProblem.h" />
-    <ClInclude Include="EulerProblemOne.h" />
+    <ClCompile Include="Source Files\EulerProblemOne.cpp" />
+    <ClCompile Include="Source Files\main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
